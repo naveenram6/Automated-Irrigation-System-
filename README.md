@@ -1,45 +1,53 @@
-# Automated Irrigation System
+# Automated Irrigation System using AND Gate IC
 
 ## 📌 Overview
-The Automated Irrigation System is designed to optimize water usage in agriculture by automatically watering plants based on soil moisture levels. This system reduces manual effort and ensures efficient water management.
+This project presents an automated irrigation system designed using basic electronics and logic gate ICs. The system ensures efficient water usage by activating irrigation only when both soil moisture is low and water is available.
 
 ## 🎯 Objective
-To develop a smart irrigation system that conserves water and improves agricultural efficiency using real-time soil monitoring.
+To design a smart irrigation system using logic gates that minimizes water wastage and operates only under required conditions.
 
 ## ⚙️ Working Principle
-The soil moisture sensor continuously monitors the moisture level and water level in the tank,So according to which the water flows to the soil . When the soil becomes dry and accurate water level, the system activates a water pump using transistor switching (BJT). Once the required moisture level and water level is reached, the system automatically turns off the pump.
+The system uses two input conditions:
+1. Soil Moisture Level (Dry/Wet)
+2. Water Availability (Tank level)
+
+These inputs are given to an AND gate IC.  
+- If both conditions are TRUE (dry soil AND water available), the output becomes HIGH.  
+- This output activates a transistor (BJT), which turns ON the water pump.  
+
+If any one condition is FALSE:
+- Pump remains OFF  
+- Prevents water wastage and dry running  
 
 ## 🛠️ Components Used
 - Soil Moisture Sensor  
-- Logic Circuit  
-- BJTs (Transistors)
-- IC 7408(AND GATE) 
+- Water Level Sensor  
+- AND Gate IC (e.g., 7408)  
+- BJT (Transistor)  
 - Water Pump  
 - Power Supply  
 - Connecting Wires  
 
 ## 🚀 Features
-- Automatic watering system  
-- Water conservation  
-- Low-cost implementation  
-- Energy efficient  
-- Reduces manual work  
+- Dual-condition control using logic gates  
+- Prevents unnecessary water usage  
+- Protects pump from dry running  
+- Low-cost and efficient design  
+- No complex programming required  
 
 ## 🔧 Technologies Used
-- Basic Electronics  
+- Digital Electronics (Logic Gates)  
+- Analog Electronics (Transistor Switching)  
 - Sensor Integration  
-- Logic Circuits  
 
 ## 📷 Project Images
-(Add your project images here)
+(Add your images here)
 
 ## 🎥 Demo Video
 (Add your video link here)
 
 ## 📄 Project Report
 [View Full Report](./Automated_Irrigation_System_Report.pdf)
-
-## 📁 Files Included
-- Source code  
 - Circuit diagram  
 - Project report  
+- Design explanation  
