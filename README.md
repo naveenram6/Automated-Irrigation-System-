@@ -47,7 +47,7 @@ If any one condition is FALSE:
 (Add your video link here)
 
 ## 📄 Project Report
-[View Full Report](./Automated_Irrigation_System_Report.pdf)
+[View Full Report](./Irrigation_Project_Report.pdf)
 - Circuit diagram  
 - Project report  
 - Design explanation  
